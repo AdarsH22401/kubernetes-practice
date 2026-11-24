@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: online-shop-app
+spec:
+  containers:
+  - name: online-shop-app
+    image: trainwithshubham/tws-online-shop-app-demo:latest
+    ports:
+    - containerPort: 5173
